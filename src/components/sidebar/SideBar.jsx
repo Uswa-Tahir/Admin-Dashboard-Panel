@@ -22,12 +22,14 @@ export default function SideBar() {
         <div className="sidebarMenu">
             <h3 className="sidebarTitle">Dashboard</h3>
             <ul className='sidebarList'>
+              <Link to={'/'} className='link'>
                 <li className='sidebarListItem active'>
                     
                     <HomeIcon className='sidebarIcon'/>
                     
                     Home
                 </li>
+                </Link>
                 <li className='sidebarListItem'>
                     <TrendingUpIcon/>
                     Analysis
